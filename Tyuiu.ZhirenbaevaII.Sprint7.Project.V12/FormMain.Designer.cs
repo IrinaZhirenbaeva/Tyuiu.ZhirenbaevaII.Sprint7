@@ -37,6 +37,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
