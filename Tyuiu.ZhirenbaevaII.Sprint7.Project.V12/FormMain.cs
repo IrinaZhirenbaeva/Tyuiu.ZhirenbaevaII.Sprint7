@@ -16,5 +16,10 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
