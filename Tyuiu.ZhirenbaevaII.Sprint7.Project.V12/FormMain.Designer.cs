@@ -34,7 +34,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(591, 396);
+            this.button2.Location = new System.Drawing.Point(607, 411);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(181, 27);
             this.button2.TabIndex = 1;
