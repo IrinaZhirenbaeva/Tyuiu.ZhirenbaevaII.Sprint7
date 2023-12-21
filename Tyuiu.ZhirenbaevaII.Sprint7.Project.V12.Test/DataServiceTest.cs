@@ -10,7 +10,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12.Test
         [TestMethod]
         public void TestMethod1()
         {
-            -
+          
         }
     }
 }
