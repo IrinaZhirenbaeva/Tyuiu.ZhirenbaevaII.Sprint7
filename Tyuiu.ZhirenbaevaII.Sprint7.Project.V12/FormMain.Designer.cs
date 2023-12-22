@@ -16,7 +16,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
         {
             if (disposing && (components != null))
             {
-                components.Dispose();
+                components.Dispose();    
             }
             base.Dispose(disposing);
         }
@@ -30,6 +30,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
         private void InitializeComponent()
         {
             this.buttonDone = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonDone
@@ -42,23 +43,33 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonDone.UseVisualStyleBackColor = true;
             this.buttonDone.Click += new System.EventHandler(this.button2_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(239, 86);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 2;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonDone);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button buttonDone;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

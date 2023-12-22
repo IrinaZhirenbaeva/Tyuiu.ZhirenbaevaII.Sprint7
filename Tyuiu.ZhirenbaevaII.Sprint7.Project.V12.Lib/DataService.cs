@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12.Lib
 {
-    public class DataService    
+    public class DataService       
     {
-
+           
     }
 }
