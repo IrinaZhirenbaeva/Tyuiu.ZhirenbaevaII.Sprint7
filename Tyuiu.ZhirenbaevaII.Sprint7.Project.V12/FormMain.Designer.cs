@@ -152,6 +152,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonChartOZY_ZII.TabIndex = 23;
             this.buttonChartOZY_ZII.Text = "Отобразить график\r\n\"количество ЭВМ/объем ОЗУ\"";
             this.buttonChartOZY_ZII.UseVisualStyleBackColor = true;
+            this.buttonChartOZY_ZII.Click += new System.EventHandler(this.buttonChartOZY_ZII_Click);
             // 
             // buttonDisc_ZII
             // 
@@ -162,6 +163,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonDisc_ZII.TabIndex = 21;
             this.buttonDisc_ZII.Text = "Отобразить график\r\n\"количество ЭВМ/объем жесткого диска\"\r\n";
             this.buttonDisc_ZII.UseVisualStyleBackColor = true;
+            this.buttonDisc_ZII.Click += new System.EventHandler(this.buttonDisc_ZII_Click);
             // 
             // buttonChartBrands_ZII
             // 
@@ -172,6 +174,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonChartBrands_ZII.TabIndex = 22;
             this.buttonChartBrands_ZII.Text = "Отобразить график\r\n\"количество ЭВМ/производитель\"";
             this.buttonChartBrands_ZII.UseVisualStyleBackColor = true;
+            this.buttonChartBrands_ZII.Click += new System.EventHandler(this.buttonChartBrands_ZII_Click);
             // 
             // groupBoxUp_ZII
             // 
@@ -226,7 +229,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSearch_ZII.TabIndex = 20;
             this.buttonSearch_ZII.Text = "Найти";
             this.buttonSearch_ZII.UseVisualStyleBackColor = true;
-            this.buttonSearch_ZII.Click += new System.EventHandler(this.buttonSearch_ZII_Click_1);
+            this.buttonSearch_ZII.Click += new System.EventHandler(this.buttonSearch_ZII_Click);
             // 
             // textBoxSearch_ZII
             // 
@@ -257,6 +260,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortOZYMax_ZII.TabIndex = 17;
             this.buttonSortOZYMax_ZII.Text = "По возрастанию";
             this.buttonSortOZYMax_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortOZYMax_ZII.Click += new System.EventHandler(this.buttonSortOZYMax_ZII_Click);
             // 
             // buttonSortOZYMin_ZII
             // 
@@ -269,6 +273,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortOZYMin_ZII.Tag = "";
             this.buttonSortOZYMin_ZII.Text = "По убыванию";
             this.buttonSortOZYMin_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortOZYMin_ZII.Click += new System.EventHandler(this.buttonSortOZYMin_ZII_Click);
             // 
             // labelSortOZY_ZII
             // 
@@ -290,6 +295,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortDiscMax_ZII.TabIndex = 14;
             this.buttonSortDiscMax_ZII.Text = "По возрастанию";
             this.buttonSortDiscMax_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortDiscMax_ZII.Click += new System.EventHandler(this.buttonSortDiscMax_ZII_Click);
             // 
             // buttonSortDiscMin_ZII
             // 
@@ -302,6 +308,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortDiscMin_ZII.Tag = "";
             this.buttonSortDiscMin_ZII.Text = "По убыванию";
             this.buttonSortDiscMin_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortDiscMin_ZII.Click += new System.EventHandler(this.buttonSortDiscMin_ZII_Click);
             // 
             // labelSortDisc_ZII
             // 
@@ -325,6 +332,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortTactMax_ZII.TabIndex = 11;
             this.buttonSortTactMax_ZII.Text = "По возрастанию";
             this.buttonSortTactMax_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortTactMax_ZII.Click += new System.EventHandler(this.buttonSortTactMax_ZII_Click);
             // 
             // buttonSortTactMin_ZII
             // 
@@ -337,6 +345,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortTactMin_ZII.Tag = "";
             this.buttonSortTactMin_ZII.Text = "По убыванию";
             this.buttonSortTactMin_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortTactMin_ZII.Click += new System.EventHandler(this.buttonSortTactMin_ZII_Click);
             // 
             // labelSortTact_ZII
             // 
@@ -358,6 +367,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortIdMax_ZII.TabIndex = 2;
             this.buttonSortIdMax_ZII.Text = "По возрастанию";
             this.buttonSortIdMax_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortIdMax_ZII.Click += new System.EventHandler(this.buttonSortIdMax_ZII_Click);
             // 
             // buttonSortIdMin_ZII
             // 
@@ -370,6 +380,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonSortIdMin_ZII.Tag = "";
             this.buttonSortIdMin_ZII.Text = "По убыванию";
             this.buttonSortIdMin_ZII.UseVisualStyleBackColor = true;
+            this.buttonSortIdMin_ZII.Click += new System.EventHandler(this.buttonSortIdMin_ZII_Click);
             // 
             // labelSortId_ZII
             // 
@@ -389,6 +400,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonGetMatrix_ZII.Name = "buttonGetMatrix_ZII";
             this.buttonGetMatrix_ZII.Size = new System.Drawing.Size(109, 85);
             this.buttonGetMatrix_ZII.TabIndex = 1;
+            this.toolTipInfo_ZII.SetToolTip(this.buttonGetMatrix_ZII, "Выгрузить базу");
             this.buttonGetMatrix_ZII.UseVisualStyleBackColor = true;
             this.buttonGetMatrix_ZII.Click += new System.EventHandler(this.buttonGetMatrix_ZII_Click);
             // 
@@ -401,7 +413,9 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.buttonStrartMatrix_ZII.Name = "buttonStrartMatrix_ZII";
             this.buttonStrartMatrix_ZII.Size = new System.Drawing.Size(62, 85);
             this.buttonStrartMatrix_ZII.TabIndex = 2;
+            this.toolTipInfo_ZII.SetToolTip(this.buttonStrartMatrix_ZII, "Вернуть таблицу к стартовому виду");
             this.buttonStrartMatrix_ZII.UseVisualStyleBackColor = true;
+            this.buttonStrartMatrix_ZII.Click += new System.EventHandler(this.buttonStrartMatrix_ZII_Click);
             // 
             // menuStripPanel_ZII
             // 
@@ -429,6 +443,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.ToolStripMenuItemFirms_ZII.Name = "ToolStripMenuItemFirms_ZII";
             this.ToolStripMenuItemFirms_ZII.Size = new System.Drawing.Size(192, 22);
             this.ToolStripMenuItemFirms_ZII.Text = "Фирмы-реализаторы";
+            this.ToolStripMenuItemFirms_ZII.Click += new System.EventHandler(this.ToolStripMenuItemFirms_ZII_Click);
             // 
             // ToolStripMenuItemInfo_ZII
             // 
@@ -444,16 +459,24 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.ToolStripMenuItemGuide_ZII.Name = "ToolStripMenuItemGuide_ZII";
             this.ToolStripMenuItemGuide_ZII.Size = new System.Drawing.Size(221, 22);
             this.ToolStripMenuItemGuide_ZII.Text = "Руководство пользователя";
+            this.ToolStripMenuItemGuide_ZII.Click += new System.EventHandler(this.ToolStripMenuItemGuide_ZII_Click);
             // 
             // ToolStripMenuItemAbout_ZII
             // 
             this.ToolStripMenuItemAbout_ZII.Name = "ToolStripMenuItemAbout_ZII";
             this.ToolStripMenuItemAbout_ZII.Size = new System.Drawing.Size(221, 22);
             this.ToolStripMenuItemAbout_ZII.Text = "О программе";
+            this.ToolStripMenuItemAbout_ZII.Click += new System.EventHandler(this.ToolStripMenuItemAbout_ZII_Click);
             // 
             // openFileDialogData_ZII
             // 
             this.openFileDialogData_ZII.FileName = "openFileDialog1";
+            // 
+            // toolTipInfo_ZII
+            // 
+            this.toolTipInfo_ZII.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipInfo_ZII.ToolTipTitle = "Подсказка";
+            this.toolTipInfo_ZII.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTipInfo_ZII_Popup);
             // 
             // FormMain
             // 
@@ -467,7 +490,8 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.Controls.Add(this.menuStripPanel_ZII);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Персональные ЭВМ";
             this.groupBoxData_ZII.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewData_ZII)).EndInit();
             this.groupBoxChart_ZII.ResumeLayout(false);

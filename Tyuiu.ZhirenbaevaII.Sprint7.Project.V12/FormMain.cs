@@ -88,55 +88,25 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             buttonStrartMatrix_ZII.Enabled = true;
         }
 
-        private void buttonSortTactMin_ZII_Click(object sender, EventArgs e)
-        {
-            string[,] DataMatrix = ds.GetMatrix(path);
-            string[,] SortMinDataMatrix = ds.SortDoubleMax(DataMatrix, 3);
-
-            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
-            {
-                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
-                {
-                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
-                }
-            }
-            buttonStrartMatrix_ZII.Enabled = true;
-        }
-
-        private void buttonSortOZYMin_ZII_Click(object sender, EventArgs e)
-        {
-            string[,] DataMatrix = ds.GetMatrix(path);
-            string[,] SortMinDataMatrix = ds.SortMax(DataMatrix, 4);
-
-            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
-            {
-                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
-                {
-                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
-                }
-            }
-            buttonStrartMatrix_ZII.Enabled = true;
-        }
-
-        private void buttonSortDiscMin_ZII_Click(object sender, EventArgs e)
-        {
-            string[,] DataMatrix = ds.GetMatrix(path);
-            string[,] SortMinDataMatrix = ds.SortMax(DataMatrix, 5);
-
-            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
-            {
-                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
-                {
-                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
-                }
-            }
-            buttonStrartMatrix_ZII.Enabled = true;
-        }
-
         private void buttonSortIdMax_ZII_Click(object sender, EventArgs e)
         {
             string[,] DataMatrix = ds.GetMatrix(path);
             string[,] SortMinDataMatrix = ds.SortMin(DataMatrix, 0);
+
+            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
+            {
+                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
+                {
+                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
+                }
+            }
+            buttonStrartMatrix_ZII.Enabled = true;
+        }
+
+        private void buttonSortTactMin_ZII_Click(object sender, EventArgs e)
+        {
+            string[,] DataMatrix = ds.GetMatrix(path);
+            string[,] SortMinDataMatrix = ds.SortDoubleMax(DataMatrix, 3);
 
             for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
             {
@@ -163,10 +133,40 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             buttonStrartMatrix_ZII.Enabled = true;
         }
 
+        private void buttonSortOZYMin_ZII_Click(object sender, EventArgs e)
+        {
+            string[,] DataMatrix = ds.GetMatrix(path);
+            string[,] SortMinDataMatrix = ds.SortMax(DataMatrix, 4);
+
+            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
+            {
+                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
+                {
+                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
+                }
+            }
+            buttonStrartMatrix_ZII.Enabled = true;
+        }
+
         private void buttonSortOZYMax_ZII_Click(object sender, EventArgs e)
         {
             string[,] DataMatrix = ds.GetMatrix(path);
             string[,] SortMinDataMatrix = ds.SortMin(DataMatrix, 4);
+
+            for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
+            {
+                for (int c = 0; c < SortMinDataMatrix.GetLength(1); c++)
+                {
+                    dataGridViewData_ZII.Rows[r].Cells[c].Value = SortMinDataMatrix[r, c];
+                }
+            }
+            buttonStrartMatrix_ZII.Enabled = true;
+        }
+
+        private void buttonSortDiscMin_ZII_Click(object sender, EventArgs e)
+        {
+            string[,] DataMatrix = ds.GetMatrix(path);
+            string[,] SortMinDataMatrix = ds.SortMax(DataMatrix, 5);
 
             for (int r = 0; r < SortMinDataMatrix.GetLength(0); r++)
             {
@@ -234,7 +234,6 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
                 }
 
             }
-
         }
 
         private void buttonChartBrands_ZII_Click(object sender, EventArgs e)
@@ -294,21 +293,27 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             }
         }
 
-        private void фирмыРеализаторыToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemFirms_ZII_Click(object sender, EventArgs e)
         {
             FormFirm formfirm = new FormFirm();
             formfirm.Show();
         }
 
-        private void руководствоПользователяToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemGuide_ZII_Click(object sender, EventArgs e)
         {
             FormGuide formGuide = new FormGuide();
             formGuide.Show();
         }
 
-        private void buttonSearch_ZII_Click_1(object sender, EventArgs e)
+        private void ToolStripMenuItemAbout_ZII_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.Show();
+        }
+
+        private void toolTipInfo_ZII_Popup(object sender, PopupEventArgs e)
         {
 
         }
     }
-}
+}   
