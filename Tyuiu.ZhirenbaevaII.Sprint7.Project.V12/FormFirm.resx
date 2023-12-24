@@ -147,12 +147,12 @@
 </value>
   </data>
   <metadata name="toolTipInfo_ZII.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>922, 17</value>
+    <value>404, 11</value>
   </metadata>
   <metadata name="openFileDialogData_ZII.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>570, 17</value>
+    <value>48, 9</value>
   </metadata>
   <metadata name="saveFileDialogData_ZII.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>748, 17</value>
+    <value>218, 10</value>
   </metadata>
 </root>
