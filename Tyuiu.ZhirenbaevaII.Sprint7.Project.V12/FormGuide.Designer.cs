@@ -54,7 +54,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12
             this.MinimizeBox = false;
             this.Name = "FormGuide";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormGuide";
+            this.Text = "Руководство пользователя";
             this.ResumeLayout(false);
             this.PerformLayout();
 

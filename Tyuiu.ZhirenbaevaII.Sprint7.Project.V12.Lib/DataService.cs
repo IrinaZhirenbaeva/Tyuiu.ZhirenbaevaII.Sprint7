@@ -294,7 +294,7 @@ namespace Tyuiu.ZhirenbaevaII.Sprint7.Project.V12.Lib
                         res[i] += 1;
                 }
             }
-            return res;
+           return res;          
         }
     }
 }
